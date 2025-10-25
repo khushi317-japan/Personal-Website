@@ -1,0 +1,70 @@
+<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- WEBSITE TITLE AND BASIC SETUP -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Khushi Sarkar | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Khushi — About me, interests, and contact information." />
+</head>
+<body>
+ <!-- HEADER SECTION -->
+  <header class="site-header">
+    <nav class="container nav" aria-label="Main">
+      <a class="brand" href="index.html">Khushi Sarkar</a>
+      <div class="links">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="pearls.html">Family Pearl Business</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT SECTION -->
+  <main class="container">
+    <h1>About Me</h1>
+
+    <section class="intro">
+      <img class="headshot" src="khushi.jpeg" />
+      <div class="text">
+        <p>I’m Khushi, a fourth-year Finance and Economics major with a minor in Data Science. I’m Indian but have lived in Japan my entire life. My grandfather moved to Japan to expand our family’s pearl business (more about that on the next page), which my dad now helps run.</p>
+        <p>I’m a foodie who loves to cook, sing, and dance. I enjoy listening to R&amp;B — artists like Khalid, Giveon, and The Weeknd — and some of my favorite Netflix shows are <em>Lucifer</em> and <em>Dynasty</em>. I love spending time with friends, going on late-night drives, and having deep conversations with people.</p>
+        <p>Professionally, I’ve completed two co-ops and two summer internships while staying active in student organizations on campus. My first co-op was as a Portfolio Monitoring Analyst at Summit Partners, a growth private equity firm, and my second was as an Associate Consultant at New Markets Advisors, a boutique consulting firm. I’ve also interned as an Investment Team Intern at LGT Private Bank in Hong Kong and as an Investment Banking Summer Analyst at Nomura Greentech in New York. On campus, I serve as the Director of Professional Development for the Emerging Markets Club and as a Junior Analyst for NUImpact.</p>
+      </div>
+    </section>
+    
+    <!-- INTERESTS SECTION -->
+    <section>
+      <h2>Interests</h2>
+      <ul>
+        <li>Cooking new recipes and hosting friends</li>
+        <li>R&amp;B playlists (Khalid, Giveon, The Weeknd)</li>
+        <li>Late-night drives and great conversations</li>
+      </ul>
+    </section>
+  </main>
+
+    <!-- FOOTER / CONTACT SECTION -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Feel free to reach out — I check messages regularly.</p>
+      <ul class="contact-list">
+        <li><a href="mailto:sarkar.kh@northeastern.edu">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/khushi-sarkar26" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://github.com/khushi317-japan" target="_blank" rel="noopener">GitHub</a></li>
+      </ul>
+      <p class="copyright">© <span id="year"></span> Khushi</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
